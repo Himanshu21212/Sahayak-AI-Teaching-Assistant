@@ -1,4 +1,5 @@
 // src/pages/Dashboard.tsx
+import WaveLab from '@/components/WaveLab';
 import { useState } from 'react';
 import Navbar from '@/components/Navbar';
 import LessonForm from '@/components/LessonForm';
@@ -120,7 +121,7 @@ const Dashboard = () => {
           </div>
 
           <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-            <TabsList className="grid w-full grid-cols-3 h-auto p-1">
+            <TabsList className="grid w-full grid-cols-2 sm:grid-cols-4 h-auto p-1">
               <TabsTrigger value="lesson" className="flex items-center gap-2 py-3">
                 <BookOpen className="h-4 w-4" />
                 <span className="hidden sm:inline">Lesson Plan</span>
@@ -138,6 +139,7 @@ const Dashboard = () => {
                 <span className="hidden sm:inline">Quiz</span>
                 <span className="sm:hidden">Quiz</span>
               </TabsTrigger>
+              <TabsTrigger value="animation">Science Lab</TabsTrigger>
             </TabsList>
 
             <div className="mt-8">
@@ -153,6 +155,9 @@ const Dashboard = () => {
                 <QuizForm />
               </TabsContent>
             </div>
+            <TabsContent value="animation">
+  <WaveLab />
+</TabsContent>
           </Tabs>
         </div>
       </main>
