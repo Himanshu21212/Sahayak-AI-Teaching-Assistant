@@ -1,0 +1,16 @@
+{
+  "framework": "vite",
+  "installCommand": "npm install && npm --prefix sahayak-ai-educator install",
+  "buildCommand": "npm --prefix sahayak-ai-educator run build",
+  "outputDirectory": "sahayak-ai-educator/dist",
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/((?!api/).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
