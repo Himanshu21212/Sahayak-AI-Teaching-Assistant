@@ -18,24 +18,24 @@ This led us to build Sahayak.
 
 ---
 
-## ✨ What Can Sahayak Do?
+##  What Can Sahayak Do?
 
-### 📚 AI Lesson Plans
+### AI Lesson Plans
 Enter a topic and select a grade to generate a structured lesson plan with explanations, examples, classroom activities and exercises.
 
-### 🌍 Localized Learning
+### Localized Learning
 Generate lessons using local examples and familiar situations that students can relate to.
 
-### 📝 Quiz Generator
+### Quiz Generator
 Create multiple-choice questions with correct answers to assess students' understanding of any topic.
 
-### 🔬 Interactive Science Lab
+### Interactive Science Lab
 Explore scientific concepts through interactive visualizations. Adjust the frequency and amplitude of a travelling wave and observe the changes in real time.
 
-### 📥 Download Teaching Materials
+### Download Teaching Materials
 Download generated lesson plans and quizzes as PDF or editable Word documents for classroom use.
 
-### 👤 Teacher Dashboard
+### Teacher Dashboard
 Create an account and access all the teaching tools from a single dashboard.
 
 ---
@@ -129,7 +129,7 @@ npm run dev
 
 ---
 
-## 🎬 Scientific Video Generation
+## Scientific Video Generation
 
 The original project also includes a separate experimental video generation module built using Python, LLMs and Manim.
 
@@ -137,7 +137,7 @@ It converts scientific topics into teaching scripts and animated visualizations.
 
 ---
 
-## 🎯 What's Next?
+## What's Next?
 
 - Expand the library of interactive science simulations.
 - Support more Indian languages.
