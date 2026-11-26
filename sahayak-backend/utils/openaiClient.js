@@ -1,10 +1,7 @@
 // utils/openaiClient.js
 import OpenAI from "openai";
-import dotenv from "dotenv";
 
-dotenv.config();
-
-// ✅ Proper named export
-export const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY
+export const getOpenAI = () => new OpenAI({
+  apiKey: process.env.SARVAM_API_KEY,
+  baseURL: "https://api.sarvam.ai/v2"
 });
