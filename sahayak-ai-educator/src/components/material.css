@@ -1,0 +1,100 @@
+.lesson-markdown {
+  font-size: 1rem;
+  line-height: 1.75;
+  overflow-wrap: anywhere;
+}
+
+.lesson-markdown h1 {
+  font-size: 1.75rem;
+  font-weight: 750;
+  margin: 1.25rem 0 0.8rem;
+}
+
+.lesson-markdown h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #2456ad;
+  margin: 1.5rem 0 0.6rem;
+}
+
+.lesson-markdown h3,
+.lesson-markdown h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 1rem 0 0.5rem;
+}
+
+.lesson-markdown p {
+  margin: 0.65rem 0;
+}
+
+.lesson-markdown ul {
+  list-style: disc;
+  padding-left: 1.6rem;
+}
+
+.lesson-markdown ol {
+  list-style: decimal;
+  padding-left: 1.6rem;
+}
+
+.lesson-markdown li {
+  margin: 0.3rem 0;
+}
+
+.lesson-markdown strong {
+  font-weight: 700;
+}
+
+.lesson-markdown hr {
+  border-top: 1px solid #d6e0ee;
+  margin: 1.3rem 0;
+}
+
+.lesson-markdown table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.lesson-markdown td,
+.lesson-markdown th {
+  border: 1px solid #cbd5e1;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.lesson-markdown th {
+  background: #eff6ff;
+  color: #172554;
+}
+
+.lesson-markdown .katex-display {
+  overflow-x: auto;
+  padding: 0.45rem 0;
+}
+
+.quiz-markdown p {
+  margin: 0;
+}
+
+.material-export {
+  background: white;
+  color: #0f172a;
+  padding: 14px;
+  font-family: Arial, sans-serif;
+}
+
+.material-export .lesson-markdown {
+  background: white;
+  color: #0f172a;
+  border: 0;
+  padding: 0;
+}
+
+.material-export h1,
+.material-export h2,
+.material-export h3 {
+  break-inside: avoid;
+  break-after: avoid;
+}
